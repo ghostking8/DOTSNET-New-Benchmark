@@ -19,9 +19,9 @@ namespace MyNameSpace_XXXXX
         protected override void OnStartRunning()
         {
 
-            //消息内容，由消息结构体 ClientXXXXXMessage 实例化
-            SpawnMonsterMessage message = new SpawnMonsterMessage(500);
-            client.Send(message);  //发送消息
+            
+            SpawnMonsterMessage message = new SpawnMonsterMessage(300);
+            client.Send(message);   
 
         }
 
