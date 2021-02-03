@@ -17,12 +17,9 @@ namespace MyNameSpace_XXXXX
 
          
         protected override void OnStartRunning()
-        {
-
-            
-            SpawnMonsterMessage message = new SpawnMonsterMessage(300);
+        {            
+            SpawnMonsterMessage message = new SpawnMonsterMessage(500);
             client.Send(message);   
-
         }
 
         protected override void OnUpdate()
